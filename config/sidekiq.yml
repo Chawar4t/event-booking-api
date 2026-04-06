@@ -1,0 +1,4 @@
+:schedule:
+  expire_bookings:
+    cron: "*/5 * * * *"   # รันทุก 5 นาที
+    class: ExpireBookingsJob
